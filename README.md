@@ -202,19 +202,3 @@ This repository is intentionally not:
 
 See [docs/limitations.md](docs/limitations.md) for more detail.
 
-## Portfolio usage notes
-
-This repo can be used as a public portfolio link when discussing API reporting, e-commerce analytics, data cleanup, and CSV or Excel handoff work.
-
-For client conversations, use it to show:
-
-- the kind of workflow that can be built privately;
-- how outputs can be validated and documented;
-- what questions should be answered before implementation;
-- why store-specific API scopes, field mapping, and report definitions matter.
-
-Portfolio support files:
-
-- [portfolio/upwork_portfolio_summary.md](portfolio/upwork_portfolio_summary.md)
-- [portfolio/proposal_reference_sentences.md](portfolio/proposal_reference_sentences.md)
-- [portfolio/devto_article_outline.md](portfolio/devto_article_outline.md)
