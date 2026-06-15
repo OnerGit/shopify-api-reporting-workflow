@@ -12,6 +12,10 @@ The runnable implementation is kept outside this public case-study repository.
 
 This is not a Shopify embedded app, public app, custom app scaffold, OAuth flow, webhook service, or production Admin API connector.
 
+## Not a production GraphQL connector
+
+The v0.2 material describes a private GraphQL-shaped mock workflow using fake local fixtures. It is useful for showing cursor-style pagination concepts, but it does not include production Shopify GraphQL queries, OAuth handling, access tokens, real store domains, webhook handling, or connector code.
+
 ## Not a complete API integration guide
 
 The documentation describes workflow concepts, not a step-by-step connector implementation.

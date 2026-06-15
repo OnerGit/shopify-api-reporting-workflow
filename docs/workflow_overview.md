@@ -16,6 +16,15 @@ Before implementation, the report definitions need to be agreed:
 
 The private implementation demonstrates a repeatable extraction pattern using sanitized API-shaped data.
 
+The case study now describes two private demo paths:
+
+- v0.1 REST-style mock workflow for simple page-based API-shaped records;
+- v0.2 GraphQL-shaped mock workflow using fake local `edges`, `node`, `cursor`, and `pageInfo` structures.
+
+The v0.2 path is closer to Shopify's current GraphQL Admin API direction while remaining a local mock workflow. It does not call Shopify, include OAuth, expose tokens, use real store domains, or provide production GraphQL query templates.
+
+See [graphql_workflow_summary.md](graphql_workflow_summary.md) and [rest_to_graphql_mock_migration_summary.md](rest_to_graphql_mock_migration_summary.md) for the public-safe v0.2 notes.
+
 In a real Shopify project, extraction would need to be adapted to Shopify GraphQL Admin API access, cursor pagination, app scopes, and store-specific resource needs.
 
 ## Step 3: Normalize nested records

@@ -17,7 +17,16 @@ Shopify-style API layer
 
 The extraction boundary is responsible for collecting order, customer, product, and line-item records from a Shopify-style source.
 
+The private case-study implementation has two documented demo paths:
+
+- v0.1 REST-style mock path for simple paginated API-shaped fixtures;
+- v0.2 GraphQL-shaped mock path that simulates connection pagination with `edges`, `node`, `cursor`, and `pageInfo` shapes.
+
+Both paths use fake local fixtures only. Neither path calls the real Shopify API, stores credentials, or exposes production connector code in this public repository.
+
 In a real Shopify project, this layer would need to use the Shopify GraphQL Admin API, approved access scopes, cursor pagination, retry handling, and secure credential storage.
+
+See [graphql_workflow_summary.md](graphql_workflow_summary.md) and [rest_to_graphql_mock_migration_summary.md](rest_to_graphql_mock_migration_summary.md) for public-safe v0.2 notes.
 
 ## Normalization and mapping layer
 

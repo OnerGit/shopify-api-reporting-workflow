@@ -72,12 +72,24 @@ Shopify-style API responses
 This repository includes small sanitized previews only:
 
 * [report_preview.md](sample_outputs/report_preview.md)
+* [report_preview_graphql.md](sample_outputs/report_preview_graphql.md)
 * [orders_cleaned_preview.csv](sample_outputs/orders_cleaned_preview.csv)
 * [customer_order_summary_preview.csv](sample_outputs/customer_order_summary_preview.csv)
 * [sales_summary_by_month_preview.csv](sample_outputs/sales_summary_by_month_preview.csv)
 * [sales_summary_by_product_preview.csv](sample_outputs/sales_summary_by_product_preview.csv)
 
 These files show the shape of the deliverables without including complete mock data, private implementation details, real client data, access tokens, store domains, or production connector code.
+
+## v0.2 GraphQL-shaped mock workflow
+
+v0.2 adds a private GraphQL-shaped mock workflow to the case study. It uses fake local fixtures only and simulates GraphQL-style connection pagination with `edges`, `node`, `cursor`, and `pageInfo` shapes.
+
+This better reflects Shopify's current GraphQL Admin API direction than a simple REST-style mock export. The public repo documents the workflow shape and includes a sanitized report preview, but it does not include GraphQL query templates, OAuth, tokens, real store domains, client data, or production connector code.
+
+Useful public notes:
+
+* [docs/graphql_workflow_summary.md](docs/graphql_workflow_summary.md)
+* [docs/rest_to_graphql_mock_migration_summary.md](docs/rest_to_graphql_mock_migration_summary.md)
 
 ## Screenshots
 
@@ -119,6 +131,12 @@ This shows a generated report preview with run summary, extraction summary, outp
 
 This shows a lightweight SQLite-style handoff with normalized reporting tables and summary tables.
 
+### GraphQL-shaped mock workflow
+
+![GraphQL CLI run success](screenshots/08_graphql_cli_run_success.png)
+
+This shows the v0.2 private workflow completing against fake GraphQL-shaped local fixtures with cursor-style pagination. It is evidence of the case-study workflow shape, not a production Shopify connector.
+
 See [screenshots/README.md](screenshots/README.md) for screenshot notes and safety rules.
 
 ## Public and private boundary
@@ -157,6 +175,8 @@ Key docs:
 * [docs/case_study.md](docs/case_study.md)
 * [docs/architecture_overview.md](docs/architecture_overview.md)
 * [docs/workflow_overview.md](docs/workflow_overview.md)
+* [docs/graphql_workflow_summary.md](docs/graphql_workflow_summary.md)
+* [docs/rest_to_graphql_mock_migration_summary.md](docs/rest_to_graphql_mock_migration_summary.md)
 * [docs/output_examples.md](docs/output_examples.md)
 * [docs/client_work_mapping.md](docs/client_work_mapping.md)
 * [docs/implementation_boundary.md](docs/implementation_boundary.md)

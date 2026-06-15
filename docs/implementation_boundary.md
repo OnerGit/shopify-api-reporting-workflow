@@ -6,14 +6,13 @@ This repository is a public case-study repository. It is not the runnable implem
 
 - README and documentation;
 - sanitized sample output previews;
-- screenshot checklist and placeholder guidance;
-- Upwork portfolio summary material;
-- article outline material.
+- screenshot guide and public-safe screenshot notes.
 
 ## Private implementation includes
 
 - runnable extraction, transformation, validation, and export code;
 - local development fixtures;
+- REST-style v0.1 and GraphQL-shaped v0.2 mock workflow paths;
 - complete field mapping logic;
 - store-specific configuration;
 - client-specific reporting rules;
@@ -28,6 +27,7 @@ The public repo must not include:
 - real client data or production exports;
 - complete mock datasets;
 - complete field mapping templates;
+- GraphQL query templates;
 - production connector code;
 - private repository paths.
 
