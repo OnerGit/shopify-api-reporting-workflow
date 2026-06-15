@@ -1,0 +1,5 @@
+customer_id,customer_email,customer_first_name,customer_last_name,order_count,gross_sales
+504,,Iris,Park,1,140.4
+502,maya.demo@example.com,Maya,Stone,1,102.6
+501,alex.demo@example.com,Alex,River,1,73.44
+503,noah.demo@example.com,Noah,Lee,1,45.36
