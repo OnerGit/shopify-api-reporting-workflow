@@ -18,15 +18,15 @@ The v0.2 material describes a private GraphQL-shaped mock workflow using fake lo
 
 ## Not public live-store validation evidence
 
-The v0.3 material describes evidence boundaries for development-store validation. This repository does not include live Shopify validation evidence unless it is manually sanitized before publication.
+The v0.3 material describes evidence boundaries for development-store validation. Public materials focus on sanitized previews and high-level workflow notes; live Shopify validation evidence remains private unless it is prepared separately for public release.
 
 ## Not a public connector template
 
-The v0.4 material may mention a private connector template at a high level, but the public repo does not include connector source code, detailed request or response material, app identity values, automation-token details, credentials, store identifiers, or redaction implementation details.
+The v0.4 material describes the private connector template at a high level. Connector source code, detailed request and response material, app identity values, automation-token handling, credentials, store identifiers, and redaction implementation details remain private.
 
 ## Not an extension implementation
 
-The v0.5 material documents optional extension planning only. This repository does not include Google Sheets, PostgreSQL, scheduler, dashboard, webhook, or cloud delivery integrations.
+The v0.5 material documents optional extension planning only. Google Sheets, PostgreSQL, scheduler, dashboard, webhook, and cloud delivery integrations would be scoped separately for a real client project.
 
 ## Not a complete API integration guide
 

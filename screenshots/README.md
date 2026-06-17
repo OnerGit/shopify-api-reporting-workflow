@@ -17,11 +17,11 @@ Screenshots are included to show workflow shape, output quality, testing evidenc
 | `07_sqlite_tables_preview.png` | Shows normalized SQLite-style reporting tables and summary tables. | Embedded |
 | `08_graphql_cli_run_success.png` | Shows the v0.2 private GraphQL-shaped mock workflow completing against fake local fixtures with cursor-style pagination. | Embedded |
 
-There are no public screenshots for v0.3, v0.4, or v0.5 unless sanitized evidence is added manually later.
+The current public screenshot set covers the mock workflow and sanitized output previews. v0.3-v0.5 are represented through written summaries rather than additional screenshots.
 
-## Public safety rules
+## Public Safety
 
-Screenshots should not show:
+The screenshot set is curated to show case-study evidence while keeping implementation and client-sensitive material private. It avoids:
 
 - local absolute paths;
 - private repository names or private folder paths;
@@ -35,9 +35,9 @@ Screenshots should not show:
 - development-store validation evidence that has not been manually sanitized;
 - connector template internals, app identity values, or automation-token details.
 
-## Recommended README flow
+## Recommended README Flow
 
-The README should present screenshots as evidence for the case study, not as instructions for running this repository:
+The README presents screenshots as evidence for the case study rather than instructions for running this repository:
 
 1. v0.1 mock workflow run evidence;
 2. private test evidence;
@@ -49,6 +49,6 @@ The README should present screenshots as evidence for the case study, not as ins
 
 ## GraphQL v0.2 screenshot
 
-`08_graphql_cli_run_success.png` documents the completed v0.2 private mock workflow. It should be described as evidence of a local GraphQL-shaped case-study path that simulates `edges`, `node`, `cursor`, and `pageInfo` pagination with fake fixtures.
+`08_graphql_cli_run_success.png` documents the completed v0.2 private mock workflow. It is evidence of a local GraphQL-shaped case-study path that simulates `edges`, `node`, `cursor`, and `pageInfo` pagination with fake fixtures.
 
-It should not be described as a real Shopify API run, a production connector, or proof of live store access.
+The screenshot represents the mock workflow only; real Shopify API validation and production connector work remain private delivery concerns.

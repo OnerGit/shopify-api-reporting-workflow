@@ -36,7 +36,7 @@ Later private milestones are documented publicly only as summaries:
 - v0.4 covers a private connector template at a high level, including security and redaction boundaries;
 - v0.5 covers client delivery workflow planning and optional extension decisions.
 
-These summaries do not expose runnable code, live Shopify access material, connector templates, detailed request or response payloads, app identity values, automation-token details, or client-specific delivery assets.
+These summaries keep the focus on architecture, evidence quality, and delivery boundaries. Runnable code, live Shopify access material, connector templates, detailed request and response payloads, app identity values, automation-token handling, and client-specific delivery assets are maintained privately.
 
 ## Normalization and mapping layer
 

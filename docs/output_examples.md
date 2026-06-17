@@ -30,7 +30,7 @@ A real client workflow could produce:
 
 ## Public-safe preview policy
 
-The preview files are intentionally small and sanitized. They should not include:
+The preview files are intentionally small and sanitized. Full implementation and client-sensitive materials remain private, including:
 
 - real Shopify order IDs;
 - real customer names or emails;

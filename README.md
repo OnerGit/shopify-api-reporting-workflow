@@ -103,7 +103,7 @@ The public docs also include sanitized summaries for later private planning and 
 * [docs/client_delivery_workflow_summary.md](docs/client_delivery_workflow_summary.md) - v0.5 delivery workflow planning summary.
 * [docs/optional_extensions_planning_summary.md](docs/optional_extensions_planning_summary.md) - optional Google Sheets or PostgreSQL delivery planning notes.
 
-These docs are intentionally summaries. They do not add public source code, full fixtures, GraphQL queries, connector templates, credentials, live validation evidence, or client-specific materials.
+These docs are intentionally concise public summaries. Implementation details, full fixtures, GraphQL queries, connector templates, credentials, live validation evidence, and client-specific materials remain private.
 
 ## Screenshots
 

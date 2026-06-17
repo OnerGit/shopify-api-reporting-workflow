@@ -21,9 +21,9 @@ This repository is a public case-study repository. It is not the runnable implem
 - client-specific reporting rules;
 - any credential handling or API configuration.
 
-## Not included publicly
+## Kept Private
 
-The public repo must not include:
+The public case study keeps these materials private:
 
 - `src/`, `tests/`, `scripts/`, `queries/`, dependency files, Docker files, or runnable Python code;
 - real Shopify credentials, app tokens, access scopes, or store domains;
@@ -42,4 +42,4 @@ The public repo must not include:
 
 The case study should show the business problem, workflow shape, deliverables, and implementation judgment without exposing reusable private code or client-sensitive details.
 
-The public material is designed to support portfolio review and client conversations. It should not be treated as a package, starter template, or implementation guide.
+The public material is designed to support portfolio review and client conversations. It is a case study, not a package, starter template, or implementation guide.

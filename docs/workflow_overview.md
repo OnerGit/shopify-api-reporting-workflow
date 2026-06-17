@@ -75,4 +75,4 @@ The public docs also summarize later private planning work:
 - v0.4 security boundary notes for a private connector template;
 - v0.5 client delivery workflow and optional extension planning notes.
 
-These are documentation summaries only. They do not add public live validation evidence, connector code, query templates, credentials, store identifiers, scheduler logic, Google Sheets integration, PostgreSQL integration, or client-specific assets.
+These are documentation summaries only. Live validation evidence, connector code, query templates, credentials, store identifiers, scheduler logic, Google Sheets integration, PostgreSQL integration, and client-specific assets remain part of private delivery work.

@@ -1,5 +1,5 @@
 # v0.3 Evidence Boundary Summary
 
-Public evidence may include sanitized report previews, summary CSV previews, screenshots, and high-level workflow notes. It must not include runnable source code, tests, full fixtures, private auth material, private paths, real domains, or customer data.
+v0.3 clarifies what belongs in public portfolio evidence. Suitable public materials include sanitized report previews, summary CSV previews, screenshots, and high-level workflow notes.
 
-This summary supports portfolio review only. It does not prove live Shopify access, does not include development-store data, and does not expose private validation artifacts.
+The public case study keeps runnable source code, tests, full fixtures, auth material, private paths, real domains, customer data, development-store data, and private validation artifacts outside the repository. This lets the portfolio show workflow quality without publishing client-sensitive or implementation-sensitive material.

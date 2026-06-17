@@ -1,7 +1,7 @@
 # Client Delivery Workflow Summary
 
-v0.5 adds private delivery workflow templates for intake, data access boundaries, output review, acceptance checks, handoff notes, and optional extension decisions.
+v0.5 adds a private delivery workflow framework for turning the case-study pattern into client work. The framework covers intake, data access boundaries, output review, acceptance checks, handoff notes, and optional extension decisions.
 
-The templates are planning artifacts. They do not add new integrations or client-specific delivery behavior by default.
+This public summary explains the delivery shape without publishing client-specific templates or acceptance criteria. The delivery details are adapted privately for each client, based on their reporting cadence, access rules, output formats, and review process.
 
-The public repo may describe the delivery stages at a high level, but it should not include client-specific checklists, private acceptance criteria, credentials, or internal implementation templates.
+The case-study value is the repeatable structure: define the report, confirm data access boundaries, review sanitized outputs, document assumptions, and decide whether lightweight extensions are worth adding.
