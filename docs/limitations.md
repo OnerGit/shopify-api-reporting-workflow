@@ -16,6 +16,18 @@ This is not a Shopify embedded app, public app, custom app scaffold, OAuth flow,
 
 The v0.2 material describes a private GraphQL-shaped mock workflow using fake local fixtures. It is useful for showing cursor-style pagination concepts, but it does not include production Shopify GraphQL queries, OAuth handling, access tokens, real store domains, webhook handling, or connector code.
 
+## Not public live-store validation evidence
+
+The v0.3 material describes evidence boundaries for development-store validation. This repository does not include live Shopify validation evidence unless it is manually sanitized before publication.
+
+## Not a public connector template
+
+The v0.4 material may mention a private connector template at a high level, but the public repo does not include connector source code, detailed request or response material, app identity values, automation-token details, credentials, store identifiers, or redaction implementation details.
+
+## Not an extension implementation
+
+The v0.5 material documents optional extension planning only. This repository does not include Google Sheets, PostgreSQL, scheduler, dashboard, webhook, or cloud delivery integrations.
+
 ## Not a complete API integration guide
 
 The documentation describes workflow concepts, not a step-by-step connector implementation.

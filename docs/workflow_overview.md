@@ -66,3 +66,13 @@ The final handoff should document:
 - field mapping assumptions;
 - date and metric definitions;
 - next adaptations needed for the actual store.
+
+## Later private planning summaries
+
+The public docs also summarize later private planning work:
+
+- v0.3 evidence boundary notes for development-store validation material;
+- v0.4 security boundary notes for a private connector template;
+- v0.5 client delivery workflow and optional extension planning notes.
+
+These are documentation summaries only. They do not add public live validation evidence, connector code, query templates, credentials, store identifiers, scheduler logic, Google Sheets integration, PostgreSQL integration, or client-specific assets.

@@ -53,7 +53,8 @@ The private implementation behind this case study demonstrates a practical repor
 * create cleaned order, customer, product, and line-item outputs;
 * generate summary tables for month, product, and customer reporting;
 * export deliverables suitable for CSV, Excel workbook, Markdown report, and SQLite-style handoff;
-* document which parts are generic workflow design and which parts must be adapted per store.
+* document which parts are generic workflow design and which parts must be adapted per store;
+* keep public evidence, security boundaries, and optional delivery extensions separate from private implementation assets.
 
 ## Example workflow
 
@@ -90,6 +91,19 @@ Useful public notes:
 
 * [docs/graphql_workflow_summary.md](docs/graphql_workflow_summary.md)
 * [docs/rest_to_graphql_mock_migration_summary.md](docs/rest_to_graphql_mock_migration_summary.md)
+
+## Later private milestone summaries
+
+The public docs also include sanitized summaries for later private planning and boundary work:
+
+* [docs/development_store_validation_summary.md](docs/development_store_validation_summary.md) - v0.3 development-store validation guidance and evidence boundary notes.
+* [docs/v0_3_evidence_boundary_summary.md](docs/v0_3_evidence_boundary_summary.md) - public-safe evidence rules for screenshots, previews, and workflow notes.
+* [docs/private_connector_template_summary.md](docs/private_connector_template_summary.md) - v0.4 private connector template summary at a high level only.
+* [docs/v0_4_security_boundary_summary.md](docs/v0_4_security_boundary_summary.md) - public/private security boundary notes for connector work.
+* [docs/client_delivery_workflow_summary.md](docs/client_delivery_workflow_summary.md) - v0.5 delivery workflow planning summary.
+* [docs/optional_extensions_planning_summary.md](docs/optional_extensions_planning_summary.md) - optional Google Sheets or PostgreSQL delivery planning notes.
+
+These docs are intentionally summaries. They do not add public source code, full fixtures, GraphQL queries, connector templates, credentials, live validation evidence, or client-specific materials.
 
 ## Screenshots
 
@@ -152,6 +166,7 @@ Private implementation includes:
 
 * runnable extraction, validation, transformation, and export code;
 * local mock fixtures used for development;
+* private development-store validation notes and gated connector template planning;
 * store-specific field mapping work;
 * any client-specific adaptations;
 * any credentials, access tokens, scopes, domains, or API configuration.
@@ -177,6 +192,12 @@ Key docs:
 * [docs/workflow_overview.md](docs/workflow_overview.md)
 * [docs/graphql_workflow_summary.md](docs/graphql_workflow_summary.md)
 * [docs/rest_to_graphql_mock_migration_summary.md](docs/rest_to_graphql_mock_migration_summary.md)
+* [docs/development_store_validation_summary.md](docs/development_store_validation_summary.md)
+* [docs/v0_3_evidence_boundary_summary.md](docs/v0_3_evidence_boundary_summary.md)
+* [docs/private_connector_template_summary.md](docs/private_connector_template_summary.md)
+* [docs/v0_4_security_boundary_summary.md](docs/v0_4_security_boundary_summary.md)
+* [docs/client_delivery_workflow_summary.md](docs/client_delivery_workflow_summary.md)
+* [docs/optional_extensions_planning_summary.md](docs/optional_extensions_planning_summary.md)
 * [docs/output_examples.md](docs/output_examples.md)
 * [docs/client_work_mapping.md](docs/client_work_mapping.md)
 * [docs/implementation_boundary.md](docs/implementation_boundary.md)
@@ -213,6 +234,9 @@ This repository is intentionally not:
 * a runnable implementation;
 * a Shopify app;
 * a production Shopify connector;
+* public development-store validation evidence;
+* a public connector template;
+* a Google Sheets or PostgreSQL integration;
 * a complete data warehouse;
 * a dbt, Airflow, Snowflake, Databricks, or BigQuery project;
 * a BI dashboard product;

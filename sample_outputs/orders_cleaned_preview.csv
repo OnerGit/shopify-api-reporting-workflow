@@ -1,5 +1,5 @@
 order_id,order_name,order_created_at,customer_id,customer_email,customer_first_name,customer_last_name,financial_status,fulfillment_status,currency,subtotal_price,total_tax,total_price
-1001,#1001,2026-01-15 10:12:00+00:00,501,alex.demo@example.com,Alex,River,paid,fulfilled,USD,68.0,5.44,73.44
-1002,#1002,2026-02-03 14:45:00+00:00,502,maya.demo@example.com,Maya,Stone,paid,partial,USD,95.0,7.6,102.6
-1003,#1003,2026-02-20 09:30:00+00:00,503,noah.demo@example.com,Noah,Lee,pending,,USD,42.0,3.36,45.36
+1001,#1001,2026-01-15 10:12:00+00:00,501,[customer_email_redacted],Alex,River,paid,fulfilled,USD,68.0,5.44,73.44
+1002,#1002,2026-02-03 14:45:00+00:00,502,[customer_email_redacted],Maya,Stone,paid,partial,USD,95.0,7.6,102.6
+1003,#1003,2026-02-20 09:30:00+00:00,503,[customer_email_redacted],Noah,Lee,pending,,USD,42.0,3.36,45.36
 1004,#1004,2026-03-10 16:05:00+00:00,504,,Iris,Park,paid,fulfilled,USD,130.0,10.4,140.4

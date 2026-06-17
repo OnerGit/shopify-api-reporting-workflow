@@ -17,6 +17,8 @@ Screenshots are included to show workflow shape, output quality, testing evidenc
 | `07_sqlite_tables_preview.png` | Shows normalized SQLite-style reporting tables and summary tables. | Embedded |
 | `08_graphql_cli_run_success.png` | Shows the v0.2 private GraphQL-shaped mock workflow completing against fake local fixtures with cursor-style pagination. | Embedded |
 
+There are no public screenshots for v0.3, v0.4, or v0.5 unless sanitized evidence is added manually later.
+
 ## Public safety rules
 
 Screenshots should not show:
@@ -29,7 +31,9 @@ Screenshots should not show:
 - real customer data;
 - full mock fixtures;
 - source code from the private implementation;
-- production GraphQL query templates.
+- production GraphQL query templates;
+- development-store validation evidence that has not been manually sanitized;
+- connector template internals, app identity values, or automation-token details.
 
 ## Recommended README flow
 

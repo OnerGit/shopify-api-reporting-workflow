@@ -28,6 +28,16 @@ In a real Shopify project, this layer would need to use the Shopify GraphQL Admi
 
 See [graphql_workflow_summary.md](graphql_workflow_summary.md) and [rest_to_graphql_mock_migration_summary.md](rest_to_graphql_mock_migration_summary.md) for public-safe v0.2 notes.
 
+## Evidence and connector boundary
+
+Later private milestones are documented publicly only as summaries:
+
+- v0.3 covers development-store validation planning and sanitized evidence boundaries;
+- v0.4 covers a private connector template at a high level, including security and redaction boundaries;
+- v0.5 covers client delivery workflow planning and optional extension decisions.
+
+These summaries do not expose runnable code, live Shopify access material, connector templates, detailed request or response payloads, app identity values, automation-token details, or client-specific delivery assets.
+
 ## Normalization and mapping layer
 
 Nested e-commerce objects are transformed into reporting-friendly tables. Store-specific mapping decisions belong here, such as how to treat discounts, refunds, shipping, product variants, fulfillment status, location, sales channel, and custom fields.
