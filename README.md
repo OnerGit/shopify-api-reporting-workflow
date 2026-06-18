@@ -245,6 +245,11 @@ This repository is intentionally not:
 
 See [docs/limitations.md](docs/limitations.md) for more detail.
 
+## Related articles
+
+- [From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study](https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f)
+- [Designing a Shopify-style API Reporting Workflow as a Public Case Study](https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f)
+
 ## How to use this case study
 
 Use this repository to understand the workflow shape and output expectations for a small e-commerce reporting automation project.
